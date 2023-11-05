@@ -54,7 +54,6 @@ public class SsePushController {
         log.info("关闭连接：{}", userId);
         SseEmitterUtil.removeUser(userId);
         return "close 成功";
-
     }
 
 }
